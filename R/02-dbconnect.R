@@ -4,7 +4,7 @@ library(odbc)
 con <- dbConnect(odbc::odbc(),
                  .connection_string = "Driver={PostgreSQL Unicode(x64)};
                  Server=192.168.0.17;\n
-                 Database=postgres;\n
+                 Database=housemate;\n
                  UID=postgres;\n
                  PWD=14KfFfJ@IHp1;\n
                  Port=5432;")
